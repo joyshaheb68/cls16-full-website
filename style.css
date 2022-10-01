@@ -1,0 +1,144 @@
+/* Custom Css  */
+clearfix::after{
+    clear: both;
+    display: block;
+}
+
+
+/* Header area start  */
+header {
+    background-color: #0b017b;
+    padding: 20px;
+}
+.logo_wrapper{}
+.logo_wrapper a img {
+    max-width: 25%;
+}
+.menu_wrapper{}
+.menu {
+    list-style: none;
+    margin-top: 15px;
+    margin-left: 230px;
+}
+.menu li{
+    float: left;
+}
+.menu li a {
+    text-decoration: none;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    margin-left: 30px;
+}
+/* Header area end  */
+
+/* Banner area start  */
+.banner_wrapper{
+    background-image: url('./image/intro-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+.banner{
+    color: white;
+}
+.banner h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.banner p {
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 45px;
+}
+.banner a {
+    margin-left: 400px;
+    padding: 10px 30px;
+}
+/* Banner area end  */
+
+/* Team area start  */
+.team_area{
+    background-color: #BAC1F3;
+}
+.team_wrapper{
+    padding: 80px;
+}
+.team_wrapper img {
+    margin-left: 115px;
+    padding-bottom: 15px;
+}
+.team_wrapper h3 {
+    font-size: 23px;
+    font-weight: 400;
+}
+.team_wrapper p {
+    padding: 0 68px;
+    font-size: 17px;
+}p{}
+.team_wrapper h2 {
+    font-size: 55px;
+    padding-bottom: 60px !important;
+}
+.team_wrapper .team_btn {
+    margin-left: 125px;
+    margin-top: 10px;
+    background-color: #337ab7;
+    color: white;
+    border: none;
+}
+/* Team area end  */
+
+/* About area start  */
+.about_area{}
+.about_wrapper {
+    background-color: #C2D4EA;
+    padding: 130px 0;
+}
+.about_h2 {
+    font-size: 55px;
+    padding-bottom: 65px;
+}
+.about_contact h5, span {
+    font-size: 19px;
+    font-weight: 400;
+    color: gray;
+}
+.u_p {
+    padding-top: 30px;
+    color: gray;
+}
+.about_details_info {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+/* About area end */
+
+/* contact area start  */
+.contact_wrapper{
+    padding: 100px;
+}
+.contact_wrapper h2{
+    font-size: 55px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+/* contact area end  */
+
+/* Footer area start  */
+footer{
+    background-color: rgb(47, 47, 238);
+    padding: 15px;
+}
+.footer_wrapper{
+    color: white;
+}
+.footer_p1 {
+    padding-top: 20px;
+}
+/* Footer area end */
